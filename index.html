@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPON</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="js" href="./style/style-plus.js">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <h2>LOGO</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a class="btn" href="#">Sing Up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- MOBILE -->
+
+        <div class="plus-btn-pos">
+            <div class="plus-btn">
+                <div class="r1"></div>
+                <div class="r2"></div>
+            </div>
+        </div>
+
+        <div class="menu-container">
+            <div class="menu-sliders"></div>
+            <div class="menu-sliders"></div>
+            <div class="menu-sliders"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a class="btn" href="#">Sing Up</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="container">
+
+                <div class="home-text">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum architecto consectetur
+                        eligendi deleniti consequuntur magni iure totam atque ipsam quas?</p>
+                </div>
+
+                <img src="./images/abstract structure.png" alt="img">
+
+            </div>
+        </section>
+
+        <section class="product">
+            <div class="container">
+
+                <div class="product-main">
+                    <div class="product-item">
+                        <img src="./images/—Pngtree—abstract geometric 3d plexus structure_5372903.png" alt="">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, odio!</p>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="./images/—Pngtree—abstract geometric 3d plexus structure_5372903.png" alt="">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, odio!</p>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="./images/—Pngtree—abstract geometric 3d plexus structure_5372903.png" alt="">
+                        <h2>Lorem</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, odio!</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <script id="rendered-js">
+        $(".plus-btn").click(function () {
+            $("body").toggleClass("menu-open");
+        });
+    </script>
+</body>
+
+</html>
